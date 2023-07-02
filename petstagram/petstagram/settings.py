@@ -1,8 +1,6 @@
 import os
 import dotenv
 from pathlib import Path
-
-from django.contrib import staticfiles
 from django.urls import reverse_lazy
 
 dotenv.load_dotenv()
@@ -103,7 +101,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'staticfiles']
-STATIC_ROOT = '/PyCharm Projects/petstagram-django/tmp/staticfiles'
+STATIC_ROOT = '/PyCharm Projects/petstagram-django/tmp/petstagram/staticfiles'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '.a/media/')
