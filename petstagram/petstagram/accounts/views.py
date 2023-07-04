@@ -2,8 +2,8 @@ from django.contrib.auth import views as auth_views, login, authenticate
 from django.core.paginator import Paginator
 from django.views import generic as views
 from django.urls import reverse_lazy
-from petstagram.accounts.forms import PetstagramUserCreateForm
-from petstagram.accounts.models import PetstagramUser
+from ..accounts.forms import PetstagramUserCreateForm
+from ..accounts.models import PetstagramUser
 
 
 class UserRegisterView(views.CreateView):

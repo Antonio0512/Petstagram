@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.text import slugify
-from petstagram.accounts.models import PetstagramUser
+from ..accounts.models import PetstagramUser
 
 
 class Pet(models.Model):

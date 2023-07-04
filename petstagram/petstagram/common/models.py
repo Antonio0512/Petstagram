@@ -1,6 +1,6 @@
 from django.db import models
-from petstagram.accounts.models import PetstagramUser
-from petstagram.photos.models import Photo
+from ..accounts.models import PetstagramUser
+from ..photos.models import Photo
 
 
 class Comment(models.Model):

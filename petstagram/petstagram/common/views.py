@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, resolve_url
 from pyperclip import copy
 
-from petstagram.common.forms import CommentForm, SearchForm
+from .forms import CommentForm, SearchForm
 from .models import Like
 from ..photos.models import Photo
 

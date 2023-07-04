@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from petstagram.photos.models import Photo
+from .models import Photo
 
 
 @admin.register(Photo)

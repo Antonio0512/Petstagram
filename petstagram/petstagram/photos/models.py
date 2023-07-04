@@ -1,9 +1,9 @@
 from django.db import models
 from django.core.validators import MinLengthValidator
 
-from petstagram.accounts.models import PetstagramUser
-from petstagram.pets.models import Pet
-from petstagram.photos.validators import validate_file_size
+from ..accounts.models import PetstagramUser
+from ..pets.models import Pet
+from .validators import validate_file_size
 
 
 class Photo(models.Model):

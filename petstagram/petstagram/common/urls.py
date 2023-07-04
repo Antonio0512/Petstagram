@@ -1,6 +1,6 @@
 from django.urls import path
 
-from petstagram.common import views
+from . import views
 
 urlpatterns = [
     path('', views.home, name='page-home'),

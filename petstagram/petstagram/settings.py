@@ -101,10 +101,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'staticfiles']
-STATIC_ROOT = '/PyCharm Projects/petstagram-django/staticfiles_prod/staticfiles'
+STATIC_ROOT = '/PyCharm Projects/petstagram-django/tmp/petstagram/staticfiles'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/PyCharm Projects/petstagram-django/staticfiles_prod/mediafiles'
+MEDIA_ROOT = '/PyCharm Projects/petstagram-django/tmp/petstagram/mediafiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 

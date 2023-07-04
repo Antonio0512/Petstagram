@@ -1,9 +1,9 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
-from petstagram.accounts.models import PetstagramUser
-from petstagram.common.forms import CommentForm
-from petstagram.pets.models import Pet
-from petstagram.pets.forms import PetForm, PetDeleteForm
+from ..accounts.models import PetstagramUser
+from ..common.forms import CommentForm
+from .models import Pet
+from .forms import PetForm, PetDeleteForm
 
 
 @login_required

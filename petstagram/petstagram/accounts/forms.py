@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.auth import forms as auth_forms
 
-from petstagram.accounts.models import PetstagramUser
+from ..accounts.models import PetstagramUser
 
 
 class UserEditForm(auth_forms.UserChangeForm):

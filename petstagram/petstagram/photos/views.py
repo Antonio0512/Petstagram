@@ -2,8 +2,8 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
-from petstagram.photos.forms import PhotoCreateForm, PhotoEditForm
-from petstagram.photos.models import Photo
+from .forms import PhotoCreateForm, PhotoEditForm
+from .models import Photo
 
 UserModel = get_user_model()
 
